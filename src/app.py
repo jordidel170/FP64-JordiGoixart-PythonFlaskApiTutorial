@@ -12,6 +12,7 @@ todos = [
 def get_todos():
     # Puedes convertir esa variable en una cadena json de la siguiente manera
     json_todos = jsonify(todos)
+    
 
     # Y luego puedes devolverlo al front-end en el cuerpo de la respuesta de la siguiente manera
     return json_todos
